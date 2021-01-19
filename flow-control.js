@@ -25,24 +25,16 @@ function ageChecker(age) {
 function ternaryTeenager(age) {
   return 13 <= age && age <= 19? `You are a teenager`:`You are not a teenager`
 }
-/*
+
 function switchAge(age) {
-  var mood = "hungry"
-  switch (mood) {
-    case "happy":
-      console.log("Dance to Pharrell's 'Happy'");
+  switch (age) {
+    case age >= 13 && age <= 19:
+      console.log("You are a teenager");
       break;
-    case "sad":
-      console.log("You should eat a pint of ice cream");
-      break;
-    case "anxious":
-      console.log("Take some deep breaths");
-      break;
-    case "hungry":
-      console.log("You should eat a big chocolate cake");
+    case age <= 12:
+      console.log("You are a kid");
       break;
     default:
-      console.log("That's not a mood we support");
-    }
+      console.log("You are a grownup");
   }
 }
