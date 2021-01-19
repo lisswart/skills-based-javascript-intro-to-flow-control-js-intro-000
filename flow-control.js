@@ -29,9 +29,8 @@ function ternaryTeenager(age) {
 function switchAge(age) {
   switch (age) {
     case 19 <= age && age >= 13:
-      return `You are a teenager`
-      break;
-    default:
       return `You have an age`
+    default:
+      return `You are a teenager`
   }
 }
