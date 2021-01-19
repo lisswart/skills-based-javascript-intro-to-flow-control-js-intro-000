@@ -30,7 +30,7 @@ function switchAge(age) {
   var mood = "hungry"
   switch (mood) {
     case "happy":
-      console.log("Dance to Pharrell's 'Happy'");      
+      console.log("Dance to Pharrell's 'Happy'");
       break;
     case "sad":
       console.log("You should eat a pint of ice cream");
@@ -40,9 +40,9 @@ function switchAge(age) {
       break;
     case "hungry":
       console.log("You should eat a big chocolate cake");
-      break;    
+      break;
     default:
       console.log("That's not a mood we support");
-    }  
+    }
   }
 }
